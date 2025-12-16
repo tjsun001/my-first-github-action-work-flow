@@ -9,8 +9,12 @@ jobs:
     steps:
       - name: My First Step
         run: printenv
-      - name: My Second Command
+      - name: My Second Step
         run: |
           echo "Thurmans GHA"
           echo "Hello" > file.txt
           ls
+          echo file.text
+      - name: Speep Step
+        run: sleep 20
+        
