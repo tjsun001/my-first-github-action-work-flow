@@ -14,7 +14,7 @@ jobs:
           echo "Thurmans GHA"
           echo "Hello" > file.txt
           ls
-          echo file.txt
+          cat file.txt
       - name: Speep Step
         run: sleep 5
         
