@@ -17,4 +17,9 @@ jobs:
           cat file.txt
       - name: Speep Step
         run: sleep 5
+      - name: My First Action
+        uses: actions/checkout@v6.0.1
+      - name: ls repo
+        run: |
+        ls
         
